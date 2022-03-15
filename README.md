@@ -100,4 +100,5 @@ Install Ansible and Git
 - cmadison
 - drawio
 - hotsos
+- multipass
 
