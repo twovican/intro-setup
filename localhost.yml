@@ -1,8 +1,7 @@
 ---
-- name: "Playing with Ansible and Git"
+- name: "Local Setup for Engineers"
   hosts: localhost
   connection: local 
-  gather_facts: no
   roles:
     - desktop
 
