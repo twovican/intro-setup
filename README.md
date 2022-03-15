@@ -5,10 +5,11 @@ Ansible Script to Install All Necessary Tools
 Prior to running this make sure that Ansible is installed.
 
 Install Ansible and Git
-`sudo apt install ansible git -y`
+
+`$ sudo apt install ansible git -y`
 
 ## Checkout this Project
-`git checkout git@github.com:twovican/intro-setup.git`
+`$ git checkout git@github.com:twovican/intro-setup.git`
 
 # Running the Script
 
