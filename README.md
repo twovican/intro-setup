@@ -18,6 +18,8 @@ Install Ansible and Git
 
 # Running the Script
 
+`$ ansible-playbook localhost.yml -i ansible_hosts`
+
 
 # Applications to be Installed
 
