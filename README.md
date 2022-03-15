@@ -9,6 +9,11 @@ Install Ansible and Git
 `$ sudo apt install ansible git -y`
 
 ## Checkout this Project
+
+`$ mkdir /tmp/setup`
+
+`$ cd /tmp/setup`
+
 `$ git checkout git@github.com:twovican/intro-setup.git`
 
 # Running the Script
