@@ -76,7 +76,10 @@ snaps:
 - xsos
 - cmadison
 - drawio
-- hotsos
+- hotsos --classic
 - multipass
 - juju
 - xjs
+- chromium
+- mattermost-desktop
+- slack --classic
