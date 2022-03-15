@@ -101,4 +101,5 @@ Install Ansible and Git
 - drawio
 - hotsos
 - multipass
+- juju
 
