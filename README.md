@@ -102,4 +102,5 @@ Install Ansible and Git
 - hotsos
 - multipass
 - juju
+- xjs
 
