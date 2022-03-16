@@ -8,17 +8,19 @@ Install Ansible and Git
 
 `$ sudo apt install ansible git -y`
 
+Install Ansible Snaps Module
+
+`$ ansible-galaxy collection install community.general`
+
 ## Checkout this Project
 
-`$ mkdir /tmp/setup`
+`$ mkdir /tmp/setup; cd /tmp/setup`
 
-`$ cd /tmp/setup`
-
-`$ git checkout git@github.com:twovican/intro-setup.git`
+`$ git checkout https://github.com/twovican/intro-setup.git`
 
 # Running the Script
 
-`ansible-playbook localhost.yml -i ansible_hosts -e ansible_python_interpreter=/usr/bin/python3`
+`ansible-playbook localhost.yml -i ansible_hosts -e ansible_python_interpreter=/usr/bin/python3 --ask-become-pass`
 
 # Applications to be Installed via APT
 
@@ -103,4 +105,4 @@ Install Ansible and Git
 - multipass
 - juju
 - xjs
-
+- git-ubuntu

@@ -14,5 +14,6 @@
   community.general.snap:
     name: "{{ item }}"
     state: present
+    classic: yes
   with_items: 
     - "{{ snaps }}"
