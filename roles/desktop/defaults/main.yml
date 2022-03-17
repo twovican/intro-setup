@@ -71,6 +71,7 @@ apt_packages:
 - ccache
 - quilt
 - autopkgtest
+- cpu-checker
 
 snaps:
 - xsos
