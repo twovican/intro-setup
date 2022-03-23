@@ -72,6 +72,7 @@ apt_packages:
 - quilt
 - autopkgtest
 - cpu-checker
+- git-review
 
 snaps:
 - xsos
@@ -85,3 +86,4 @@ snaps:
 - mattermost-desktop
 - slack
 - git-ubuntu
+- kubectl
