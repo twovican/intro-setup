@@ -16,7 +16,7 @@ Install Ansible Snaps Module
 
 `$ mkdir /tmp/setup; cd /tmp/setup`
 
-`$ git checkout https://github.com/twovican/intro-setup.git`
+`$ git clone https://github.com/twovican/intro-setup.git`
 
 # Running the Script
 
